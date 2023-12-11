@@ -22,11 +22,9 @@ Simply described, the project's goal is to:
 
 ## **Your group's solution to the business problem.**
 
-Our team's approach to Home Credit Risk Analysis involved constructing a predictive model through machine learning techniques. Among the various models tested, the Light Gradient Boosting (LGB) model, followed closely by the XG Boost model, demonstrated superior performance in evaluating the creditworthiness of potential borrowers, particularly those with limited credit histories. These models yielded Kaggle scores of .695 and .623, respectively. To tackle class imbalance within the dataset, we implemented SMOTE sampling techniques.The top three features crucial for the LGB model's success were EMPLOYMENT\_DAYS, REGISTRATION\_DAYS, and LAST\_PHONE\_CHANGE \_DAYS.
+Our team's approach to Home Credit Risk Analysis involved constructing a predictive model through machine learning techniques. Among the various models tested, the Light Gradient Boosting (LGB) model, followed closely by the XG Boost model, demonstrated superior performance in evaluating the creditworthiness of potential borrowers, particularly those with limited credit histories. These models yielded Kaggle scores of .695 and .623, respectively. To tackle class imbalance within the dataset, we implemented SMOTE sampling techniques.The top three features crucial for the LGB model's success were **EMPLOYMENT\_DAYS, REGISTRATION\_DAYS, and LAST\_PHONE\_CHANGE \_DAYS.**
 
-We recommend Home Credit Group to consider lending to individuals based on factors such as gender, family status, type of income, ownership of a car, and
-#
-level of education. Applicants meeting all these criteria are deemed less likely to default. Ultimately, our solution aims to align with Home Credit's mission of enhancing financial inclusion and providing a positive borrowing experience for the unbanked population.
+We recommend Home Credit Group to consider lending to individuals based on factors such as **Gender, Family Status, Type of Income, Ownership of a Car, and Level of Education.** Applicants meeting all these criteria are deemed less likely to default. Ultimately, our solution aims to align with Home Credit's mission of enhancing financial inclusion and providing a positive borrowing experience for the unbanked population.
 
 ## **Your contribution to the project**
 
@@ -36,15 +34,11 @@ Within the Modeling phase of the Home Credit Kaggle project, I took a lead role 
 
 ## **The business value of the solution.**
 
-The business value of the Home Credit Risk Analysis project lies in its ability to significantly enhance Home Credit's lending operations and contribute to the company's mission of financial inclusion.
+We conducted a comparison between the basic logistic regression model and our selected best model, the LGB model, using precision values. The precision for logistic regression is 0.69, while the LGB model achieves a higher precision of 0.92.
 
-In numeric terms, the business value can be evaluated as follows:
+To illustrate the impact, we consider a sample of 10,000 customers identified as less likely to default. Utilizing precision values, we estimated the risk of default for both models. **Surprisingly, the logistic regression model predicted 3,193 customers at risk, whereas the LGB model predicted only 16.**
 
-1. _Default Prevention: Assuming the average mortgage in the portfolio is $200,000 and HomeCredit group grants 1000 loans per year. If historically 2% of loans defaulted and this model could prevent 50% of these, it would save the company 0.02_0.5\*1000$200,000 = $2,000,000 per year.
-
-Also, a 67% accuracy rate means that 33 out of every 100 predictions could be incorrect, which could lead to significant costs in terms of false negatives and positives. The company needs to take this into consideration when implementing the model.
-
-**In this particular Home credit group case, there are 8.07% of likely defaulters and the accuracy of the final model chosen is 67%. So, with our solution, we can assess 5.41% of the defaulters accurately.**
+This highlights a significant advantage of the LGB model, potentially allowing Home Credit to identify over 3,000 additional customers with lower default risk. Such an outcome aligns seamlessly with Home Credit's mission of reducing the financial services gap in society, demonstrating a compelling business solution.
 
 ## **Difficulties that your group encountered along the way.**
 
