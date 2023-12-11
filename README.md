@@ -3,7 +3,7 @@ Home Credit Default Project
 </h1>
 
 <p align = "center">
-   <img src ="https://thevideoink.com/wp-content/uploads/2022/05/short-term-loan-handing-out-scaled.jpg" width = "170" height="110">
+   <img src ="https://thevideoink.com/wp-content/uploads/2022/05/short-term-loan-handing-out-scaled.jpg" width = "190" height="130">
 </p>
 
 
