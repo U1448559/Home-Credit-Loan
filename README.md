@@ -1,5 +1,12 @@
+<h1 align = "center" style = "font-weight : bold">
+Home Credit Default Project
+</h1>
 
-# **Home Credit Default Project**
+<p align = "center">
+   <img src ="https://thevideoink.com/wp-content/uploads/2022/05/short-term-loan-handing-out-scaled.jpg" width = "170" height="110">
+</p>
+
+
 
 ## **Introduction:**
 
